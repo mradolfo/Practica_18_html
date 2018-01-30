@@ -46,8 +46,30 @@
                 <td>e</td>
             </tr>
             <tr>
-                <td>e</td>
-                <td colspan="2">¿Como conociste a MundoOcio.com?</td>
+                <td>
+                Sexo:
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="hombre" value="H" name="sexo">
+                    <label for="Mujer">Mujer</label>
+                    <input type="radio" id="Mujer" value="M"  name="sexo">
+                </td>
+                <td colspan="2"><label for="lista">¿Como conociste a MundoOcio.com?</label>
+                    <select name="lista" id="conocer">
+                        <optgroup label="Reconmendación">
+                            <option value="AMIGOS">Amigos</option>
+                            <option value="FAMILIARES">Familiares</option>
+                            <option value="OTROS">Otros</option>
+                        </optgroup>
+                        <optgroup label="Medios">
+                            <option value="INTERNET">Internet</option>
+                            <option value="TV">TV</option>
+                            <option value="PRENSA">Prensa</option>
+                            <option value="RADIO">Radio</option>
+                            <option value="OTROS">Otros</option>
+                        </optgroup>
+                    </select>
+                    <input type="submit" id="lista" VALUE="enviar">
+                </td>
             </tr>
             <tr>
                 <td colspan="4">e</td>
@@ -60,5 +82,7 @@
         </tfoot>
     </table>
 </form>
+<h1>Ir a otras zonas de MundoOcio.com</h1>
+
 </body>
 </html>
