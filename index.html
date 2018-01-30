@@ -42,18 +42,51 @@
                 </td>
             </tr>
             <tr>
-                <td>e</td>
-                <td>e</td>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Intereses</legend>
+                        <table border="1">
+                            <tr>
+                                <td>
+                            <label for="Deportes">Deportes</label>
+                            <input type="checkbox" id="Deportes" name="Deportes">
+                                </td>
+                                <td>
+                            <label for="Cine">Cine</label>
+                            <input type="checkbox" id="Cine" name="Cine">
+                                </td>
+                                <td>
+                            <label for="Teatro">Teatro</label>
+                            <input type="checkbox" id="Teatro" name="Teatro">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                            <label for="Música">Música</label>
+                            <input type="checkbox" id="Música" name="Música">
+                                </td>
+                                <td>
+                            <label for="Viajes">Viajes</label>
+                            <input type="checkbox" id="Viajes" name="Viajes">
+                                </td>
+                                <td>
+                            <label for="Otras">Otras</label>
+                            <input type="checkbox" id="Otras" name="Otras">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2">
                 Sexo:
                     <label for="hombre">Hombre</label>
                     <input type="radio" id="hombre" value="H" name="sexo">
                     <label for="Mujer">Mujer</label>
                     <input type="radio" id="Mujer" value="M"  name="sexo">
                 </td>
-                <td colspan="2"><label for="lista">¿Como conociste a MundoOcio.com?</label>
+                <td colspan="2"><label>¿Como conociste a MundoOcio.com?</label>
                     <select name="lista" id="conocer">
                         <optgroup label="Reconmendación">
                             <option value="AMIGOS">Amigos</option>
@@ -68,11 +101,14 @@
                             <option value="OTROS">Otros</option>
                         </optgroup>
                     </select>
-                    <input type="submit" id="lista" >
+
                 </td>
             </tr>
             <tr>
-                <td colspan="4">e</td>
+                <td colspan="2">
+                    <p>Escribe ahora los comentarios que estimes oportunos</p><br>
+                <textarea name="comentarios" id="" cols="100" rows="10"></textarea>
+                </td>
             </tr>
         </tbody>
         <tfoot>
